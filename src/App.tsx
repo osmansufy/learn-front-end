@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className='container mx-auto'>
-      <div className="grid  grid-rows-[repeat(6,minmax(120px,1fr))] gap-4">
+      <div className="grid  grid-rows-[repeat(6,minmax(120px,1fr))] gap-8">
         {/* Header */}
         <header className="flex justify-between items-center bg-[#D9D9D9] p-4  row-span-1">
           <img src={viteLogo} className="p-2" alt="Vite Logo" />
@@ -38,7 +38,7 @@ function App() {
             Get Started
           </button>
         </header>
-        <div className='row-span-4 grid grid-cols-12 gap-4'>
+        <div className='row-span-4 grid grid-cols-12 gap-6'>
           {/* Sidebar */}
           <aside className="bg-[#D9D9D9] p-4 col-span-3 ">
             Sidebar
