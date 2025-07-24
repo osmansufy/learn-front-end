@@ -1,5 +1,6 @@
 import './App.css'
 import viteLogo from '/vite.svg'
+import Login from './components/Login'
 
 function App() {
 
@@ -45,7 +46,7 @@ function App() {
           </aside>
           {/* Main */}
           <main className="bg-[#D9D9D9] p-4 col-span-6">
-            "Main"
+            <Login />
           </main>
           <aside className="bg-[#D9D9D9] p-4 col-span-3">
             Sidebar
